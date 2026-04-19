@@ -1,0 +1,173 @@
+{
+  "version": "2.0.0",
+  "sources": {
+    "official_blogs": [
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog",
+        "type": "official",
+        "priority": 1
+      },
+      {
+        "name": "Anthropic Blog",
+        "url": "https://anthropic.com/news",
+        "type": "official",
+        "priority": 1
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai",
+        "type": "official",
+        "priority": 1
+      },
+      {
+        "name": "Meta AI Blog",
+        "url": "https://ai.meta.com/blog",
+        "type": "official",
+        "priority": 1
+      },
+      {
+        "name": "DeepSeek Blog",
+        "url": "https://deepseek.com/blog",
+        "type": "official",
+        "priority": 1
+      },
+      {
+        "name": "Mistral AI Blog",
+        "url": "https://mistral.ai/news",
+        "type": "official",
+        "priority": 2
+      }
+    ],
+    "tech_blogs": [
+      {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence",
+        "type": "tech_news",
+        "priority": 1
+      },
+      {
+        "name": "TechCrunch AI",
+        "url": "https://techcrunch.com/category/artificial-intelligence",
+        "type": "tech_news",
+        "priority": 1
+      },
+      {
+        "name": "Ars Technica AI",
+        "url": "https://arstechnica.com/tagged/artificial-intelligence",
+        "type": "tech_news",
+        "priority": 2
+      },
+      {
+        "name": "VentureBeat AI",
+        "url": "https://venturebeat.com/category/ai",
+        "type": "tech_news",
+        "priority": 2
+      },
+      {
+        "name": "机器之心",
+        "url": "https://www.jiqizhixin.com",
+        "type": "tech_news_cn",
+        "priority": 1
+      },
+      {
+        "name": "36氪 AI",
+        "url": "https://36kr.com/information/AI",
+        "type": "tech_news_cn",
+        "priority": 2
+      },
+      {
+        "name": "量子位",
+        "url": "https://www.qbitai.com",
+        "type": "tech_news_cn",
+        "priority": 2
+      }
+    ],
+    "social_media": [
+      {
+        "name": "Twitter/X AI",
+        "url": "https://twitter.com/search?q=AI",
+        "type": "social",
+        "priority": 2,
+        "handles": ["@OpenAI", "@AnthropicAI", "@GoogleAI", "@MetaAI", "@deepseek_ai"]
+      },
+      {
+        "name": "Hacker News AI",
+        "url": "https://news.ycombinator.com",
+        "type": "community",
+        "priority": 2
+      }
+    ],
+    "developer_sources": [
+      {
+        "name": "GitHub AI Trending",
+        "url": "https://github.com/trending",
+        "type": "developer",
+        "priority": 2
+      },
+      {
+        "name": "r/MachineLearning",
+        "url": "https://reddit.com/r/MachineLearning",
+        "type": "community",
+        "priority": 2
+      },
+      {
+        "name": "r/LocalLLaMA",
+        "url": "https://reddit.com/r/LocalLLaMA",
+        "type": "community",
+        "priority": 2
+      }
+    ],
+    "research_sources": [
+      {
+        "name": "ArXiv AI",
+        "url": "https://arxiv.org/list/cs.AI/recent",
+        "type": "research",
+        "priority": 3
+      },
+      {
+        "name": "Papers With Code",
+        "url": "https://paperswithcode.com",
+        "type": "research",
+        "priority": 3
+      }
+    ]
+  },
+  "vendors": {
+    "international": [
+      {"name": "OpenAI", "keywords": ["OpenAI", "GPT", "ChatGPT", "Sora", "Codex", "DALL-E"]},
+      {"name": "Anthropic", "keywords": ["Anthropic", "Claude", "Claude Design"]},
+      {"name": "Google DeepMind", "keywords": ["Google AI", "Gemini", "DeepMind", "AlphaFold"]},
+      {"name": "Meta AI", "keywords": ["Meta AI", "LLaMA", "PyTorch"]},
+      {"name": "Mistral AI", "keywords": ["Mistral", "Mixtral"]},
+      {"name": "xAI", "keywords": ["xAI", "Grok"]}
+    ],
+    "domestic": [
+      {"name": "DeepSeek", "keywords": ["DeepSeek", "DeepSeek-V3", "DeepSeek-Coder"]},
+      {"name": "百度", "keywords": ["百度", "文心一言", "ERNIE"]},
+      {"name": "阿里", "keywords": ["阿里", "通义千问", "Qwen"]},
+      {"name": "腾讯", "keywords": ["腾讯", "混元"]},
+      {"name": "字节跳动", "keywords": ["字节", "豆包"]},
+      {"name": "科大讯飞", "keywords": ["讯飞", "星火"]},
+      {"name": "智谱AI", "keywords": ["智谱", "GLM", "ChatGLM"]},
+      {"name": "MiniMax", "keywords": ["MiniMax"]},
+      {"name": "月之暗面", "keywords": ["Kimi", "Moonshot"]}
+    ]
+  },
+  "topic_focus": {
+    "max_topics_per_report": 2,
+    "min_articles_per_topic": 3,
+    "depth_analysis": true,
+    "split_multiple_topics": true
+  },
+  "glossary": {
+    "auto_explain": true,
+    "first_occurrence_only": true,
+    "max_length": 50
+  },
+  "output": {
+    "directory": "ai-reports",
+    "filename_pattern": "YYYY-MM-DD-[topic].md",
+    "max_news_per_report": 10
+  }
+}

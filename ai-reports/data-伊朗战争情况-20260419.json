@@ -1,0 +1,44 @@
+{
+  "query": "伊朗战争情况",
+  "timestamp": "2026-04-19T19:43:14.557134",
+  "sources": [
+    {
+      "platform": "量子位",
+      "success": true,
+      "items": []
+    },
+    {
+      "platform": "机器之心",
+      "success": true,
+      "items": []
+    },
+    {
+      "platform": "36氪",
+      "success": true,
+      "items": []
+    },
+    {
+      "platform": "IT之家",
+      "success": true,
+      "items": [
+        {
+          "title": "50 分 26 秒，荣耀机器人打破人类半马纪录",
+          "url": "https://www.ithome.com/0/940/856.htm",
+          "source": "IT之家",
+          "content": null,
+          "is_hot": false
+        }
+      ]
+    },
+    {
+      "platform": "百度",
+      "success": true,
+      "items": []
+    },
+    {
+      "platform": "Bing",
+      "success": false,
+      "items": []
+    }
+  ]
+}
